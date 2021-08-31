@@ -21,7 +21,7 @@ describe('Map', () => {
     });
 
     it('The result of a given func for input array is the func applied to all the elements of the array',()=>{
-            expect(map([{x:10}],(obj)=>(obj.x + 1))).toEqual([11]git );
+            expect(map([{x:10}],(obj)=>(obj.x + 1))).toEqual([11]);
     });
 
 })
